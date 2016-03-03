@@ -1,6 +1,10 @@
+# encoding: utf-8
+$:.push File.expand_path("../lib", __FILE__)
+require "rkelly/constants"
+
 Gem::Specification.new do |s|
   s.name        = 'rkelly'
-  s.version     = '1.0.7'
+  s.version     = RKelly::VERSION
   s.date        = '2009-02-23'
   s.summary     = "Parse JavaScript"
   s.description = "The RKelly library will parse JavaScript and return a parse tree."
